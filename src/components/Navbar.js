@@ -48,7 +48,7 @@ const ResponsiveAppBar = () => {
           GoodReads
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none'  ,justifyContent: 'center' , alignItems: 'center', fontSize: '30px' , color:"white"  } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none'   } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -87,7 +87,7 @@ const ResponsiveAppBar = () => {
           <Typography
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: 'center' , alignContent:'center' }}
+            sx={{ flexGrow: 1, display: { xs: 'block', md: 'none' } , fontSize:"40px" , fontWeight:"700"}}
           >
           GoodReads
           </Typography>
